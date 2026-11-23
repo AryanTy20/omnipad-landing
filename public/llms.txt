@@ -1,0 +1,32 @@
+# Omnipad
+
+> Omnipad is a free Android app that turns a phone into a wireless keyboard, mouse, trackpad, presentation remote, macro pad and TV remote. It connects over Bluetooth with nothing installed on the other device, or over Wi-Fi/USB with the Omnipad desktop app for Linux.
+
+## Key facts
+
+- Platform: Android 9 or newer (phone app). Optional desktop app: Linux.
+- Price: The Bluetooth keyboard (with number pad and function keys), trackpad, media remote and slide clicker buttons are free with no account. Pro (Wi-Fi/USB with the desktop app, gamepad, all tile boards and unlimited tiles, voice typing, type clipboard, air mouse and air pointer, volume-key slides, talk timer, custom Media layout, scan to type, jiggler) unlocks for 30 minutes per rewarded video ad (up to 2 hours), or with a Monthly, Yearly or Lifetime plan that also removes ads.
+- Bluetooth mode works with: Windows 10/11, macOS, Linux, ChromeOS, iPad/iPhone (mouse via AssistiveTouch), Android phones and tablets, Android TV, Google TV, Fire TV and most smart TVs.
+- Desktop app adds: Wi-Fi and USB connections, now-playing info with album art and seek bar (MPRIS), and a virtual Xbox 360 controller.
+- Keyboard layout: text is sent for US English; set the target to US English for typing.
+- Limitation: a few phone makers disable Android's Bluetooth keyboard (HID device) feature; Wi-Fi/USB still works on those phones.
+
+## Features
+
+- Trackpad: tap to click, two-finger scroll with momentum, two/three-finger tap for right/middle click, tap-and-drag, drag lock.
+- Air mouse: gyroscope pointer, works with the phone held flat or upright.
+- Keyboard: live typing, Ctrl/Alt/Shift/Super modifiers (tap = one shot, hold = lock), arrows, Home/End, PgUp/PgDn, F1–F12, number pad, voice dictation, type phone clipboard.
+- Presenter: Next/Previous buttons and swipe, volume buttons change slides, start / start from here / black screen / end for PowerPoint, Google Slides, Keynote, LibreOffice Impress and PDF viewers, hold-to-point air pointer, talk timer with vibration at 2 minutes left and at time up, keeps screen on.
+- Tiles and macros: boards of custom buttons; each tile runs steps (key combination, type text, wait, mouse click, scroll, media key, hold key, release key); repeat while held; templates for Essentials, Browser, Coding (VS Code), Meetings (Meet/Zoom/Teams), Windows, macOS, Media and OBS; share boards as JSON.
+- Media and TV remote: play/pause, next, previous, volume, mute, D-pad, OK, Back, Home, Menu.
+- Tools: barcode/QR scan to type, mouse jiggler (keeps the computer awake), Bluetooth gamepad.
+
+## Common questions
+
+- How do I use my phone as a mouse for my PC without installing anything? Install Omnipad, choose Bluetooth, tap "Make phone visible", then pair the phone from the PC's Bluetooth settings.
+- Can Omnipad be a PowerPoint clicker? Yes, the Present tab; the phone's volume buttons can change slides.
+- Can Omnipad control a smart TV? Yes, any TV that accepts a Bluetooth keyboard.
+
+## Pages
+
+- [Home](https://omnipad.app/): features, supported devices, setup steps, FAQ
