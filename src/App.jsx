@@ -236,7 +236,7 @@ function Download() {
         <div className="download">
           <div>
             <h2>Get Omnipad</h2>
-            <p className="sub">Free for Android 9 and newer. The optional desktop app adds Wi-Fi, USB and Xbox controller support, free.</p>
+            <p className="sub">Free for Android 9 and newer. The optional desktop app adds free Wi-Fi and USB, plus Xbox controller support with Pro.</p>
           </div>
           <ul className="installers">
             {DOWNLOADS.map(([label, file, href]) => (
