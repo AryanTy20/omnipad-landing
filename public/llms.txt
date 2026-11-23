@@ -5,7 +5,7 @@
 ## Key facts
 
 - Platform: Android 9 or newer (phone app). Optional desktop app: Linux.
-- Price: The keyboard (with number pad and function keys) and trackpad are free with no account, over Bluetooth or Wi-Fi/USB with the desktop app. Pro (presenter and slide clicker, media and TV remote, gamepad, all tile boards and unlimited tiles, voice typing, type clipboard, air mouse and air pointer, volume-key slides, talk timer, scan to type, jiggler) unlocks for 30 minutes per rewarded video ad (up to 2 hours), or with a Monthly, Yearly or Lifetime plan that also removes ads.
+- Price: The keyboard and trackpad are free with no account, over Bluetooth or Wi-Fi/USB with the desktop app. Pro (number pad and F1–F12 keys, presenter and slide clicker, media and TV remote, gamepad, all tile boards and unlimited tiles, voice typing, type clipboard, air mouse and air pointer, volume-key slides, talk timer, scan to type, jiggler) unlocks for 30 minutes per rewarded video ad (up to 2 hours), or with a Monthly, Yearly or Lifetime plan that also removes ads.
 - Bluetooth mode works with: Windows 10/11, macOS, Linux, ChromeOS, iPad/iPhone (mouse via AssistiveTouch), Android phones and tablets, Android TV, Google TV, Fire TV and most smart TVs.
 - Desktop app adds: Wi-Fi and USB connections, now-playing info with album art and seek bar (MPRIS), and a virtual Xbox 360 controller.
 - Keyboard layout: text is sent for US English; set the target to US English for typing.

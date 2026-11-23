@@ -33,7 +33,7 @@ const PLANS = [
     name: 'Free',
     price: '$0',
     note: 'forever, over Bluetooth',
-    items: ['Keyboard with number pad and F-keys', 'Trackpad and mouse buttons', 'Wi-Fi and USB with the desktop app', '1 tile board with up to 6 tiles', 'Small banner on the connect screen only'],
+    items: ['Full keyboard with shortcuts', 'Trackpad and mouse buttons', 'Wi-Fi and USB with the desktop app', '1 tile board with up to 6 tiles', 'Small banner on the connect screen only'],
   },
   {
     name: 'Pro for 30 min',
@@ -46,7 +46,7 @@ const PLANS = [
     price: '3 plans',
     note: 'Monthly, Yearly or Lifetime',
     featured: true,
-    items: ['Presenter: slide clicker, talk timer, air pointer', 'Media and TV remote, custom layout', 'Gamepad and Xbox 360 controller', 'All tile boards, templates, unlimited tiles', 'Voice typing and type clipboard', 'Air mouse and air pointer', 'Scan to type and mouse jiggler', 'No ads'],
+    items: ['Number pad and F1–F12 keys', 'Presenter: slide clicker, talk timer, air pointer', 'Media and TV remote, custom layout', 'Gamepad and Xbox 360 controller', 'All tile boards, templates, unlimited tiles', 'Voice typing and type clipboard', 'Air mouse and air pointer', 'Scan to type and mouse jiggler', 'No ads'],
   },
 ];
 
