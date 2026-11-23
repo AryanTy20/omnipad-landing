@@ -268,6 +268,7 @@ export default function App() {
         <Logo />
         <span>Phone as keyboard, mouse, presenter and remote.</span>
         <a href="/privacy" className="footer-push">Privacy</a>
+        <a href="/terms">Terms</a>
         <a href="/llms.txt">llms.txt</a>
       </footer>
     </>
