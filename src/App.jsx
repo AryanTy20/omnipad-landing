@@ -1,6 +1,14 @@
 import { useEffect, useState } from 'react';
 import PhoneDemo from './PhoneDemo.jsx';
 
+const DRIVE = (id) => `https://drive.google.com/file/d/${id}/view?usp=drivesdk`;
+const DOWNLOADS = [
+  ['Android 9+', 'Omnipad-1.0.0.apk', DRIVE('1cmGFByBlw1EgJPZ3WJQ-kdxgJJp612DG')],
+  ['Windows 10 & 11', 'Omnipad-Setup-1.0.0.exe', DRIVE('1oDIwyoaL4M9ykb3n94792Qqx0Mu8uWWk')],
+  ['Debian, Ubuntu, Mint', 'omnipad_1.0.0_amd64.deb', DRIVE('1J2lhBZ2YgG3G45ZocpfS-F6dyGnASSPp')],
+  ['Fedora, openSUSE', 'omnipad-1.0.0-1.x86_64.rpm', DRIVE('19jxTs76uiWN7HcH260WXWxpQI2PUVPJN')],
+  ['Arch, CachyOS, Manjaro', 'omnipad-1.0.0-1-x86_64.pkg.tar.zst', DRIVE('1AmWMEBxwpMl_oIfxSmHXofksELKVqer1')],
+];
 const RELEASES = 'https://github.com/AryanTy20/omnipad/releases/latest';
 
 const FEATURES = [
@@ -233,10 +241,11 @@ function Download() {
             <a className="btn btn-primary" href={RELEASES}>Download from GitHub Releases</a>
           </div>
           <ul className="installers">
-            <li><span>Windows 10 & 11</span><code>Omnipad-Setup-&lt;version&gt;.exe</code></li>
-            <li><span>Debian, Ubuntu, Mint</span><code>omnipad_&lt;version&gt;_amd64.deb</code></li>
-            <li><span>Fedora, openSUSE</span><code>omnipad-&lt;version&gt;-1.x86_64.rpm</code></li>
-            <li><span>Arch, CachyOS, Manjaro</span><code>omnipad-&lt;version&gt;-1-x86_64.pkg.tar.zst</code></li>
+            {DOWNLOADS.map(([label, file, href]) => (
+              <li key={file}>
+                <a href={href} target="_blank" rel="noopener noreferrer"><span>{label}</span><code>{file}</code></a>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
