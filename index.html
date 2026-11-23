@@ -13,12 +13,18 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 
+<link rel="alternate" hreflang="en" href="https://omnipad.app/">
+<link rel="alternate" hreflang="x-default" href="https://omnipad.app/">
+<meta name="author" content="Omnipad">
+<meta name="application-name" content="Omnipad">
+<meta property="og:locale" content="en_US">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Omnipad">
 <meta property="og:title" content="Omnipad – your phone as a keyboard, mouse and presentation remote">
 <meta property="og:description" content="Bluetooth keyboard, mouse, trackpad, slide clicker, macro pad and TV remote in one Android app. Nothing to install on the other device.">
 <meta property="og:url" content="https://omnipad.app/">
 <meta property="og:image" content="https://omnipad.app/icon-512.png">
+<meta property="og:image:alt" content="Omnipad app icon">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Omnipad – your phone as a keyboard, mouse and presentation remote">
 <meta name="twitter:description" content="Bluetooth keyboard, mouse, slide clicker, macro pad and TV remote. Works with Windows, Mac, Linux, iPad and smart TVs.">
@@ -33,6 +39,31 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Organization",
+      "@id": "https://omnipad.app/#org",
+      "name": "Omnipad",
+      "url": "https://omnipad.app/",
+      "logo": "https://omnipad.app/icon-512.png",
+      "sameAs": ["https://github.com/AryanTy20/omnipad"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://omnipad.app/#website",
+      "url": "https://omnipad.app/",
+      "name": "Omnipad",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://omnipad.app/#org" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://omnipad.app/#webpage",
+      "url": "https://omnipad.app/",
+      "isPartOf": { "@id": "https://omnipad.app/#website" },
+      "about": { "@id": "https://omnipad.app/#app" },
+      "inLanguage": "en",
+      "dateModified": "2026-11-23"
+    },
+    {
       "@type": "SoftwareApplication",
       "@id": "https://omnipad.app/#app",
       "name": "Omnipad",
@@ -41,9 +72,12 @@
       "applicationCategory": "UtilitiesApplication",
       "operatingSystem": "Android 9 or later",
       "url": "https://omnipad.app/",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://omnipad.app/#org" },
+      "availableOnDevice": "Android phone",
       "image": "https://omnipad.app/icon-512.png",
       "softwareVersion": "1.0",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free with optional ads; one-time in-app purchase for Pro" },
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free core features with no account; Pro unlocks via rewarded ads or a Monthly, Yearly or Lifetime plan" },
       "featureList": [
         "Bluetooth keyboard and mouse with no software on the target device",
         "Multi-touch trackpad with two-finger scrolling",
@@ -66,7 +100,7 @@
         { "@type": "Question", "name": "How do I use my phone as a mouse and keyboard for my PC?",
           "acceptedAnswer": { "@type": "Answer", "text": "Install Omnipad on your Android phone, choose Bluetooth, tap Make phone visible, then pair the phone from your PC's Bluetooth settings. Your phone now works as a wireless keyboard, mouse and trackpad. Nothing needs to be installed on the PC." } },
         { "@type": "Question", "name": "Do I need to install software on my computer?",
-          "acceptedAnswer": { "@type": "Answer", "text": "No. In Bluetooth mode Omnipad acts as a standard Bluetooth keyboard and mouse, so Windows, macOS, Linux, ChromeOS, iPad and smart TVs use their built-in drivers. The optional Omnipad desktop app for Linux adds Wi-Fi and USB connections, live media info and Xbox controller emulation." } },
+          "acceptedAnswer": { "@type": "Answer", "text": "No. In Bluetooth mode Omnipad acts as a standard Bluetooth keyboard and mouse, so Windows, macOS, Linux, ChromeOS, iPad and smart TVs use their built-in drivers. The optional Omnipad desktop app for Linux and Windows adds Wi-Fi and USB connections, live media info and Xbox controller emulation." } },
         { "@type": "Question", "name": "Can I use my phone as a presentation clicker for PowerPoint or Google Slides?",
           "acceptedAnswer": { "@type": "Answer", "text": "Yes. Omnipad's Present tab has large Next and Previous buttons, lets the phone's volume buttons change slides, and has start, black-screen and end shortcuts for PowerPoint, Google Slides, Keynote, LibreOffice Impress and PDF viewers, plus a talk timer and an air pointer." } },
         { "@type": "Question", "name": "Does Omnipad work as a remote for a smart TV?",
@@ -76,7 +110,7 @@
         { "@type": "Question", "name": "Which phones and keyboard layouts are supported?",
           "acceptedAnswer": { "@type": "Answer", "text": "Bluetooth mode needs Android 9 or newer; a few phone makers disable the Bluetooth keyboard feature, in which case Wi-Fi or USB with the desktop app still works. Text is sent for a US English keyboard layout, so set the target device to US English for typing." } },
         { "@type": "Question", "name": "Is Omnipad free?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes. The keyboard, trackpad, media remote and presenter basics are free forever and need no account. Pro features (unlimited tile boards, air mouse, gamepad, scan to type, mouse jiggler) unlock for 30 minutes per short video ad, or permanently with a one-time Pro purchase that also removes ads. What you type is sent only to the device you connect to." } }
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. The keyboard, trackpad, media remote and presenter basics are free forever and need no account. Pro features (unlimited tile boards, air mouse, gamepad, scan to type, mouse jiggler) unlock for 30 minutes per short video ad, or with a Monthly, Yearly or Lifetime Pro plan that also removes ads. What you type is sent only to the device you connect to." } }
       ]
     },
     {
@@ -99,6 +133,11 @@
 </head>
 <body>
 <div id="root"></div>
+<noscript>
+<h1>Omnipad: use your Android phone as a Bluetooth keyboard, mouse and presentation remote</h1>
+<p>Omnipad is a free Android app that turns a phone into a wireless keyboard, mouse, trackpad, presentation clicker, macro pad and TV remote. It works over Bluetooth with Windows, macOS, Linux, ChromeOS, iPad and smart TVs with nothing to install on the other device, or over Wi-Fi and USB with the Omnipad desktop app. Requires Android 9 or newer.</p>
+<p><a href="/llms.txt">Full product facts</a> · <a href="/privacy.html">Privacy policy</a> · <a href="https://github.com/AryanTy20/omnipad/releases/latest">Download</a></p>
+</noscript>
 <script type="module" src="/src/main.jsx"></script>
 </body>
 </html>
