@@ -1,6 +1,6 @@
 # Omnipad
 
-> Omnipad is a free Android app that turns a phone into a wireless keyboard, mouse, trackpad, presentation remote, macro pad and TV remote. It connects over Bluetooth with nothing installed on the other device, or over Wi-Fi/USB with the Omnipad desktop app for Linux.
+> Omnipad is a free Android app that turns a phone into a wireless keyboard, mouse, trackpad, presentation remote, macro pad and TV remote. It connects over Bluetooth with nothing installed on the other device, or over Wi-Fi/USB with the Omnipad desktop app for Linux and Windows.
 
 ## Key facts
 

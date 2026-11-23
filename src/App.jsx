@@ -11,12 +11,12 @@ const DOWNLOADS = [
 ];
 
 const FEATURES = [
-  ['Trackpad & air mouse', 'Multi-touch trackpad with tap to click and two-finger scrolling. Or point the phone and the cursor follows the gyroscope.'],
-  ['Full keyboard', 'Type with your phone keyboard, use Ctrl, Alt, Shift and ⌘ shortcuts, function keys and a number pad. Dictate with your voice, or send your clipboard.'],
-  ['Presentation remote', 'Big Next/Previous buttons, volume-button slide control, black screen, an air pointer and a talk timer that vibrates when time is nearly up.'],
-  ['Shortcuts & macros', 'Build boards of tiles for VS Code, Photoshop, OBS, Zoom or any app. Each tile runs key combos, text, delays, clicks and media keys.'],
-  ['Media & TV remote', 'Play, pause, skip and change the volume. Use the D-pad, OK, Back and Home on Android TV, Google TV and Fire TV.'],
-  ['Scan, jiggle, play', 'Type barcodes and QR codes into any field, keep your computer awake, or play with a Bluetooth gamepad.'],
+  ['Trackpad & air mouse', 'Multi-touch trackpad with tap to click and two-finger scrolling. Or point the phone and the cursor follows the gyroscope (Pro).'],
+  ['Full keyboard', 'Type with your phone keyboard, use Ctrl, Alt, Shift and ⌘ shortcuts. Pro adds function keys, a number pad, voice dictation and clipboard sending.'],
+  ['Presentation remote', 'Pro. Big Next/Previous buttons, volume-button slide control, black screen, an air pointer and a talk timer that vibrates when time is nearly up.'],
+  ['Shortcuts & macros', 'Build boards of tiles for VS Code, Photoshop, OBS, Zoom or any app. One board of 6 tiles is free. Each tile runs key combos, text, delays, clicks and media keys.'],
+  ['Media & TV remote', 'Pro. Play, pause, skip and change the volume. Use the D-pad, OK, Back and Home on Android TV, Google TV and Fire TV.'],
+  ['Scan, jiggle, play', 'Pro. Type barcodes and QR codes into any field, keep your computer awake, or play with a Bluetooth gamepad.'],
 ];
 
 const DEVICES = [
@@ -32,7 +32,7 @@ const PLANS = [
   {
     name: 'Free',
     price: '$0',
-    note: 'forever, over Bluetooth',
+    note: 'forever',
     items: ['Full keyboard with shortcuts', 'Trackpad and mouse buttons', 'Wi-Fi and USB with the desktop app', '1 tile board with up to 6 tiles', 'Small banner on the connect screen only'],
   },
   {
