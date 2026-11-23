@@ -33,7 +33,7 @@ const PLANS = [
     name: 'Free',
     price: '$0',
     note: 'forever, over Bluetooth',
-    items: ['Keyboard with number pad and F-keys', 'Trackpad, media and TV remote', 'Slide clicker: Next, Previous, Start, Blank, End', '1 tile board with up to 6 tiles', 'Small banner on the connect screen only'],
+    items: ['Keyboard with number pad and F-keys', 'Trackpad and mouse buttons', 'Wi-Fi and USB with the desktop app', '1 tile board with up to 6 tiles', 'Small banner on the connect screen only'],
   },
   {
     name: 'Pro for 30 min',
@@ -46,7 +46,7 @@ const PLANS = [
     price: '3 plans',
     note: 'Monthly, Yearly or Lifetime',
     featured: true,
-    items: ['Gamepad and Xbox 360 controller', 'All tile boards, templates, unlimited tiles', 'Voice typing and type clipboard', 'Air mouse and air pointer', 'Volume-key slides and talk timer', 'Custom Media layout, scan to type, jiggler', 'No ads'],
+    items: ['Presenter: slide clicker, talk timer, air pointer', 'Media and TV remote, custom layout', 'Gamepad and Xbox 360 controller', 'All tile boards, templates, unlimited tiles', 'Voice typing and type clipboard', 'Air mouse and air pointer', 'Scan to type and mouse jiggler', 'No ads'],
   },
 ];
 
@@ -55,7 +55,7 @@ const FAQ = [
   ['Can I use it as a clicker for PowerPoint or Google Slides?', 'Yes. The Present tab has large Next and Previous buttons, lets the volume buttons change slides, and has start, black-screen and end shortcuts for PowerPoint, Google Slides, Keynote, LibreOffice Impress and PDF viewers, plus a talk timer and an air pointer.'],
   ['Does it work with a smart TV?', 'Yes. Any TV that accepts a Bluetooth keyboard, including Android TV, Google TV and Fire TV, works with the D-pad, OK, Back, Home, media and volume buttons.'],
   ['Which phones and keyboard layouts are supported?', 'Bluetooth mode needs Android 9 or newer. A few phone makers disable the Bluetooth keyboard feature; Wi-Fi or USB with the desktop app still works on those phones. Text is sent for a US English layout, so set the target device to US English.'],
-  ['Is Omnipad free?', 'Yes. Bluetooth typing, the trackpad, media controls and presenter Next/Previous are free forever with no account. Wi-Fi and USB with the desktop app are free too. Pro features, including the gamepad, extra tile boards and the talk timer, unlock for 30 minutes per short video ad, or with a Monthly, Yearly or Lifetime plan that also removes ads.'],
+  ['Is Omnipad free?', 'Yes. The keyboard and trackpad are free forever with no account, over Bluetooth or Wi-Fi and USB with the desktop app. Pro features, including the presenter, the media and TV remote, the gamepad and extra tile boards, unlock for 30 minutes per short video ad, or with a Monthly, Yearly or Lifetime plan that also removes ads.'],
 ];
 
 function Logo() {
@@ -190,7 +190,7 @@ function Pricing() {
     <section id="pricing" className="section">
       <div className="wrap">
         <h2>Free to use. Pro when you want more.</h2>
-        <p className="sub">Typing, pointing and presenting over Bluetooth are always free. Unlock everything else with a short ad, a subscription, or once for good.</p>
+        <p className="sub">Typing and pointing are always free. Unlock everything else with a short ad, a subscription, or once for good.</p>
         <div className="plans">
           {PLANS.map((p) => (
             <article className={`plan ${p.featured ? 'plan-featured' : ''}`} key={p.name}>
