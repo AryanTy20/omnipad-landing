@@ -46,16 +46,16 @@ const PLANS = [
     price: '3 plans',
     note: 'Monthly, Yearly or Lifetime',
     featured: true,
-    items: ['Wi-Fi and USB with the desktop app', 'Gamepad and Xbox 360 controller', 'All tile boards, templates, unlimited tiles', 'Voice typing and type clipboard', 'Air mouse and air pointer', 'Volume-key slides and talk timer', 'Custom Media layout, scan to type, jiggler', 'No ads'],
+    items: ['Gamepad and Xbox 360 controller', 'All tile boards, templates, unlimited tiles', 'Voice typing and type clipboard', 'Air mouse and air pointer', 'Volume-key slides and talk timer', 'Custom Media layout, scan to type, jiggler', 'No ads'],
   },
 ];
 
 const FAQ = [
-  ['Do I need to install software on my computer?', 'No. Over Bluetooth Omnipad is a standard keyboard and mouse, so Windows, macOS, Linux, ChromeOS, iPad and smart TVs use their built-in drivers. The optional desktop app for Linux and Windows adds Wi-Fi and USB, live media info and Xbox controller emulation (Pro).'],
+  ['Do I need to install software on my computer?', 'No. Over Bluetooth Omnipad is a standard keyboard and mouse, so Windows, macOS, Linux, ChromeOS, iPad and smart TVs use their built-in drivers. The optional desktop app for Linux and Windows adds free Wi-Fi and USB, live media info and Xbox controller emulation.'],
   ['Can I use it as a clicker for PowerPoint or Google Slides?', 'Yes. The Present tab has large Next and Previous buttons, lets the volume buttons change slides, and has start, black-screen and end shortcuts for PowerPoint, Google Slides, Keynote, LibreOffice Impress and PDF viewers, plus a talk timer and an air pointer.'],
   ['Does it work with a smart TV?', 'Yes. Any TV that accepts a Bluetooth keyboard, including Android TV, Google TV and Fire TV, works with the D-pad, OK, Back, Home, media and volume buttons.'],
-  ['Which phones and keyboard layouts are supported?', 'Bluetooth mode needs Android 9 or newer. A few phone makers disable the Bluetooth keyboard feature; Wi-Fi or USB with the desktop app (Pro) still works on those phones. Text is sent for a US English layout, so set the target device to US English.'],
-  ['Is Omnipad free?', 'Yes. Bluetooth typing, the trackpad, media controls and presenter Next/Previous are free forever with no account. Pro features, including Wi-Fi and USB, the gamepad, extra tile boards and the talk timer, unlock for 30 minutes per short video ad, or with a Monthly, Yearly or Lifetime plan that also removes ads.'],
+  ['Which phones and keyboard layouts are supported?', 'Bluetooth mode needs Android 9 or newer. A few phone makers disable the Bluetooth keyboard feature; Wi-Fi or USB with the desktop app still works on those phones. Text is sent for a US English layout, so set the target device to US English.'],
+  ['Is Omnipad free?', 'Yes. Bluetooth typing, the trackpad, media controls and presenter Next/Previous are free forever with no account. Wi-Fi and USB with the desktop app are free too. Pro features, including the gamepad, extra tile boards and the talk timer, unlock for 30 minutes per short video ad, or with a Monthly, Yearly or Lifetime plan that also removes ads.'],
 ];
 
 function Logo() {
@@ -95,7 +95,7 @@ function Hero() {
     <section className="hero" id="top">
       <div className="wrap hero-grid">
         <div>
-          <p className="eyebrow">Free for Android · Bluetooth free · Wi-Fi & USB with Pro</p>
+          <p className="eyebrow">Free for Android · Bluetooth, Wi-Fi & USB free</p>
           <h1>Your phone is the only remote you need.</h1>
           <p className="lede">
             Omnipad turns your Android phone into a wireless keyboard, trackpad, slide clicker, macro pad and TV remote. Pair over
@@ -142,7 +142,7 @@ function Devices() {
     <section id="devices" className="section">
       <div className="wrap">
         <h2>Works with what you already own.</h2>
-        <p className="sub">Anything that accepts a Bluetooth keyboard and mouse. The optional desktop app for Linux and Windows adds Wi-Fi, USB and extras with Pro.</p>
+        <p className="sub">Anything that accepts a Bluetooth keyboard and mouse. The optional desktop app for Linux and Windows adds Wi-Fi, USB and extras, free.</p>
         <div className="table-wrap">
           <table>
             <thead>
@@ -236,7 +236,7 @@ function Download() {
         <div className="download">
           <div>
             <h2>Get Omnipad</h2>
-            <p className="sub">Free for Android 9 and newer. The optional desktop app adds Wi-Fi, USB and Xbox controller support with Pro.</p>
+            <p className="sub">Free for Android 9 and newer. The optional desktop app adds Wi-Fi, USB and Xbox controller support, free.</p>
           </div>
           <ul className="installers">
             {DOWNLOADS.map(([label, file, href]) => (
