@@ -9,7 +9,6 @@ const DOWNLOADS = [
   ['Fedora, openSUSE', 'omnipad-1.0.0-1.x86_64.rpm', DRIVE('19jxTs76uiWN7HcH260WXWxpQI2PUVPJN')],
   ['Arch, CachyOS, Manjaro', 'omnipad-1.0.0-1-x86_64.pkg.tar.zst', DRIVE('1AmWMEBxwpMl_oIfxSmHXofksELKVqer1')],
 ];
-const RELEASES = 'https://github.com/AryanTy20/omnipad/releases/latest';
 
 const FEATURES = [
   ['Trackpad & air mouse', 'Multi-touch trackpad with tap to click and two-finger scrolling. Or point the phone and the cursor follows the gyroscope.'],
@@ -238,7 +237,6 @@ function Download() {
           <div>
             <h2>Get Omnipad</h2>
             <p className="sub">Free for Android 9 and newer. The optional desktop app adds Wi-Fi, USB and Xbox controller support with Pro.</p>
-            <a className="btn btn-primary" href={RELEASES}>Download from GitHub Releases</a>
           </div>
           <ul className="installers">
             {DOWNLOADS.map(([label, file, href]) => (
