@@ -260,7 +260,7 @@ export default function App() {
       <footer className="wrap footer">
         <Logo />
         <span>Phone as keyboard, mouse, presenter and remote.</span>
-        <a href="/privacy.html" className="footer-push">Privacy</a>
+        <a href="/privacy" className="footer-push">Privacy</a>
         <a href="/llms.txt">llms.txt</a>
       </footer>
     </>
